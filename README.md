@@ -26,10 +26,10 @@
    streamlit run app.py
 
 - A browser window will open. From there, you can:
-   •Select your current mood using emojis.
-   •Optionally add a note.
-   • Submit your entry.
-   •View a mood trend chart for any selected date
+   -Select your current mood using emojis.
+   -Optionally add a note.
+   -Submit your entry.
+   -View a mood trend chart for any selected date
 
 
 
