@@ -1,3 +1,5 @@
-credentials.json
-__pycache__/
-*.pyc
+streamlit
+gspread
+oauth2client
+pandas
+plotly
