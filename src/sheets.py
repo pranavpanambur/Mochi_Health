@@ -14,6 +14,7 @@ client = gspread.authorize(creds)
 # Allow dynamic sheet selection
 def get_sheet(sheet_name="Mood Tracker"):
     try:
+        st.write("Loaded credentials from secrets")  # For debugging
         sheet = client.open(sheet_name).sheet1
         return sheet
     except Exception as e:
